@@ -1,0 +1,517 @@
+
+@font-face {
+  font-family: showcard gothic;
+  src:url(font/fuente.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: showcard gothic;
+    
+  }
+
+
+  
+  /*----------------------------*//*----------------------------*//*----------------------------*/
+  /*MENU*/
+  
+  /* ENCABEZADO*/
+
+  #encabezado{
+    height: 120px;
+    width: 100%;
+    margin-top: auto;
+    font-family: showcard gothic;
+    background-color: #151515;
+  }
+
+  /* LETRA COLOR*/
+
+  #Tcolor{
+    color: #1e04ae;
+    text-shadow: 10px rgb(0, 0, 0);
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+  }
+  /* LETRA &*/
+
+  #y{
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+    margin-right: 3px;
+  }
+
+  /* LETRA LACAS*/
+
+  #Tlacas{
+    color: rgb(215, 0, 0);
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+  }
+  
+  /* LETRAS BTN INICIO*/
+  
+  #Tsas{
+    color: #4400ff;
+    text-shadow: 10px rgb(255, 255, 255);
+    font-size: 18px;
+    background-color: #ff0000;
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+    margin-right: 3px;
+  }
+
+
+  #Tsas:hover{
+    background-color: #003cff;
+    color: rgb(255, 0, 0);
+  }
+  
+  /*----------------------------*//*----------------------------*//*----------------------------*/
+   /*Mapa*/
+   .ubicacion{
+    text-align: center;
+    font-size: 1.4em;
+    margin: 50px 10px;
+    color: #000000;
+  }
+  
+  .slider__2txt{
+    margin: 5px 0;
+    font-size: 1.5em;
+    font-family: showcard gothic;
+    color: rgb(0, 0, 0);
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+  }
+  /*----------------------------*//*----------------------------*//*----------------------------*/
+    
+  
+  .TITULO{
+    font-family: showcard gothic;
+    font-size: 2.2em;
+    margin: 0;
+    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+  }   
+
+  
+.TEXTO_TITULO{
+    margin: 5px 0;
+    font-size: 1.5em;
+    font-family: showcard gothic;
+    color: rgb(0, 0, 0);
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+  }
+  
+  .TITULO_OPCIONES{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 2em;
+    font-family: showcard gothic;
+  }  
+  
+  
+  
+  /*----------------------------*//*----------------------------*//*----------------------------*/
+  
+   /*ESTILOS DE PRODUCTOS */
+  .container-products {
+    display: grid;
+    grid-template-columns: repeat(0, 1fr);
+    grid-gap: 15px;
+  }
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  .product__img{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+  }
+  .product__title{
+    background: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-size: 1.5em;
+    font-family: showcard gothic;
+  }
+  .product__title:hover{
+  background: #0460ff;
+  
+  }
+
+/* ENTONACION Y APLICACIONES*----------------------------------------------------------------------------------------------------------------------------/
+
+/*titulos*/
+.slider__content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+  z-index: 999;
+}
+.Boton__title{
+  font-size: 2.2em;
+  margin: 0;
+  background-color: #201e35;
+}
+
+
+.btn-shop{
+  display: block;
+  border: 2px solid #000000;
+  background: #7f9dff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin: 20px auto;
+  transition: all 0.5s;
+}
+.btn-shop:hover{
+  background: #b463ff;
+  color: white;
+}
+
+.editor__item{
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.editor__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#distribuidores{
+  text-align: center;
+  color: rgb(60, 0, 255);
+  font-family: showcard gothic;
+}
+/**----------------------------------------------------------------------------------------------------------------------------/
+
+
+
+
+/*FOTER PIE DE PAGINA-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    ruby-align:center ;
+}
+
+
+/*TAMAÑO IMG PIE DE PAGINA*/
+.pie-pagina .grupo-1 .box img{
+   width: 280px;
+    
+}
+
+/*TITULO PIE DE PAFINA*/
+
+.pie-pagina .grupo-1 .box h2{
+    font-family: showcard gothic;
+    color:rgb(255, 0, 0);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+/*texto pie de pagina*/
+
+.pie-pagina .grupo-1 .box p{
+    font-family: showcard gothic;
+    color:rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+
+/*BOTONES DE REDES SOCIALES*/
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #000000;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+
+/*BOTONES DE REDES SOCIALES AL PASA EL MAUSE*/
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(255, 0, 0);
+}
+
+/*TEXTO DERECHOS RESERVADOS*/
+.pie-pagina .grupo-2{
+    background-color: rgb(5, 0, 10);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    } 
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+   
+    
+  
+@media screen and (min-width:100px) and (max-width:900px) {
+    .checkbtn{
+      display: block;
+    }
+    .lugares{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #454546;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      position: absolute;
+      top: 8%;
+      z-index: 9999;
+      
+    }
+    .ur{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    .titulos{
+      font-size: 20px;
+    }
+    .titulos:hover.active{
+      background: none;
+      color: #FF4E00;
+    }
+    #check:checked ~ .lugares{
+      left: 0;
+    }
+    .slider{
+      height: 220px;
+      width: -360px;
+    }
+    .slider__content{
+      font-size:  10px;
+    }
+    .btn-shop{
+        display: block;
+        border: 2px solid #c8ff00;
+        color: white;
+        padding: 5px;
+        width: 80px;
+    }
+    .slider__btn{
+      width: 25px;
+      height: 25px;
+      font-size: 20px;
+    
+    }
+    .editor__item{
+      height: 250px;
+    }
+    .menu{
+      padding-left: 20px;
+      height: 100px;
+    }
+    .titulos{
+      font-size: 16px;
+    }
+    .container-tips{
+      margin: 50px 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .mapa{
+      width:350px;
+    }
+    #y{
+      font-size: 16px;
+    }
+}
+  
+/*Estilos para tablet*/
+@media screen and (min-width:375px) and(max-width:900px) {
+    .slider{
+      margin: 100%;
+      height: 100px;
+    }
+    .editor__item{
+      height: 250px;
+    }
+    .menu{
+      padding-left: 20px;
+      height: 100px;
+    }
+    .titulos{
+      font-size: 16px;
+    }
+    .container-tips{
+      margin: 50px 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
+  /*Estilos para web*/
+  
+  @media screen and (min-width:1024px) { 
+    .container{
+      width: 1000px;
+      margin: auto;
+    }
+    
+    .main-header .container--flex{
+      display: flex;
+      align-items: center;
+    }
+    .main-header__container{
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+    .main-header__txt{
+      width: 100%;
+    }
+    .main-header__container:nth-child(2){
+      order: -1;
+      width: 25%;
+    }
+    .main-header__container:nth-child(3){
+      width: 25%;
+      padding: 0 20px;
+    }
+    .main-header__title {
+      width: 100%;
+      font-size: 4em;
+      margin: 0;
+      border-bottom: 1px solid #ccc;
+    }
+    .main-header__link {
+      margin-bottom: 20px;
+    }
+    .main-header__btn{
+      width: 130px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .main-header__input{
+      width: 85%;
+    }
+    .main-nav{
+      visibility: visible;
+      opacity: 1;
+      width: 100%;
+      margin-top: 20px;
+    }
+    .menu__link{
+      color: #333;
+    }
+    .menu__link:hover{
+      background: #333;
+      color: white;
+    }
+    .container-products {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+    }
+    #pintahogar {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px;
+    }
+    .product__img {
+      height: 150px;
+      
+    }
+    .container__testimonials{
+      font-size: 1.3em; 
+    }
+    .container-editor{
+      display: flex;
+      justify-content: space-between;
+    }
+    .editor__item{
+      width: 48%;
+    }
+    .main-footer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+    }
+    .copy {
+      grid-column-start: span 4;
+      text-align: center;
+    }
+    #y{
+      font-size: 24px;
+    }
+}
+  
+@media screen and (min-width:1280px) { 
+    .container{
+      width: 1200px;
+    }
+    .main-header__container:nth-child(3){
+      padding-left: 60px;
+    }
+    .main-header__container:nth-child(2){
+      font-size: 1.3em;
+    }
+    .slider{
+      height: 500px;
+      font-size: 1.5em;
+    }
+}
+  
+@media screen and (min-width:1600px) { 
+    .container{
+      width: 1500px;
+    }
+    .main-header__container:nth-child(3){
+      padding-left: 150px;
+    }
+    .main-header__container:nth-child(2){
+      font-size: 1.5em;
+    }
+    .slider{
+      height: 600px;
+    }
+    .product__img {
+      height: 200px;
+    }
+}
+  

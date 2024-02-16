@@ -1,0 +1,37 @@
+.whatsapp{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 70px;
+    bottom: 50px;
+    right: 50px;
+    background: #027d15 ;
+    color: rgb(255, 255, 255);
+    border-radius : 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: Opx 1px 19px rgba(®,0,0,0.3);
+    z-index: 999;
+    text-decoration: none;
+
+}
+.whatsapp:hover{
+    background: #1c9903 ;
+    color: #008b15;
+}
+#logo{
+    position: fixed;
+    width: 50px;
+    height: 48px;
+    line-height: 80px;
+    bottom: 70px;
+    right: 50px;
+    color: rgb(255, 255, 255);
+    border-radius : 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 0px 1px 19px rgba(®,0,0,0.3);
+    z-index: 999;
+    text-decoration: none;
+
+}
