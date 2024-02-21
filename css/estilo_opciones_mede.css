@@ -1,0 +1,296 @@
+
+@font-face {
+  font-family: showcard gothic;
+  src:url(font/fuente.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: showcard gothic;
+    
+  }
+
+
+  
+  /*----------------------------*//*----------------------------*//*----------------------------*/
+  /*TITULO*/
+  .ubicacion{
+    text-align: center;
+    font-size: 1.4em;
+    margin: 50px 10px;
+    color: #000000;
+    font-family: showcard gothic;  
+  }
+
+  /* LETRA COLOR*/
+.TITULO_principal .TITULO .color{
+    color: #1e04ae;
+    text-shadow: 10px rgb(0, 0, 0);
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+    font-size: 1.5em;
+  }
+
+
+  /* LETRA &*/
+.TITULO_principal .TITULO .y{
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+    margin-right: 3px;
+    font-size: 1.5em;
+  }
+
+  /* LETRA LACAS*/
+
+  .TITULO_principal .TITULO .lacas{
+    color: rgb(215, 0, 0);
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+    font-size: 1.5em;
+  }
+  
+  /* Medellin / Ubicacion */
+  
+.TEXTO_TITULO{
+    margin: 5px 0;
+    font-size: 1.5em;
+    font-family: showcard gothic;
+    color: rgb(0, 0, 0);
+    text-shadow: -3px -3px 3px #ffffff, 3px -3px 3px #ffffff, -3px 3px 3px #ffffff, 3px 3px 3px #ffffff;
+  }
+ 
+  
+  .TITULO_OPCIONES{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 2em;
+    font-family: showcard gothic;
+  }  
+  
+  
+  
+  /*----------------------------*//*----------------------------*//*----------------------------*/
+  
+   /*ESTILOS DE PRODUCTOS */
+  .container-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+ 
+  }
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  .product .name{
+     background: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-size: 1.5em;
+    font-family: showcard gothic;
+  }
+  .product .name:hover{
+    background: #3980eb;
+    
+    }
+
+  .product .product__img{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+  }
+ 
+ 
+
+/* ENTONACION Y APLICACIONES*----------------------------------------------------------------------------------------------------------------------------/
+
+/*titulos*/
+.container-editor{
+  display: flex;
+  justify-content: space-between;
+  font-family: showcard gothic;
+
+}
+
+.container-editor .editor__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.container-editor .editor__item{
+  width: 48%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.editor__item .slider__content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+  z-index: 999;
+}
+.editor__item .Boton__title{
+  font-size: 2.2em;
+  margin: 0;
+  background-color: #201e35;
+}
+
+
+.slider__content .ir{
+  display: block;
+  border: 2px solid #000000;
+  background: #7f9dff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin: 20px auto;
+  transition: all 0.5s;
+}
+.ir:hover{
+  background: #b463ff;
+  color: white;
+}
+
+
+
+#distribuidores{
+  text-align: center;
+  color: rgb(60, 0, 255);
+  font-family: showcard gothic;
+}
+/**----------------------------------------------------------------------------------------------------------------------------/
+
+
+
+
+/*FOTER PIE DE PAGINA-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    ruby-align:center ;
+}
+
+
+/*TAMAÑO IMG PIE DE PAGINA*/
+.pie-pagina .grupo-1 .box img{
+   width: 280px;
+    
+}
+
+/*TITULO PIE DE PAFINA*/
+
+.pie-pagina .grupo-1 .box h2{
+    font-family: showcard gothic;
+    color:rgb(255, 0, 0);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+/*texto pie de pagina*/
+
+.pie-pagina .grupo-1 .box p{
+    font-family: showcard gothic;
+    color:rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+
+/*BOTONES DE REDES SOCIALES*/
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #000000;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+
+/*BOTONES DE REDES SOCIALES AL PASA EL MAUSE*/
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(255, 0, 0);
+}
+
+/*TEXTO DERECHOS RESERVADOS*/
+.pie-pagina .grupo-2{
+    background-color: rgb(5, 0, 10);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/*whatsapp whatsapp  whatsapp*/
+
+.whatsapp{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  line-height: 70px;
+  bottom: 50px;
+  right: 50px;
+  background: #027d15 ;
+  color: rgb(255, 255, 255);
+  border-radius : 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: Opx 1px 19px rgba(®,0,0,0.3);
+  z-index: 999;
+  text-decoration: none;
+
+}
+.whatsapp:hover{
+  background: #1c9903 ;
+  color: #008b15;
+}
+#logo{
+  position: fixed;
+  width: 50px;
+  height: 48px;
+  line-height: 80px;
+  bottom: 70px;
+  right: 50px;
+  color: rgb(255, 255, 255);
+  border-radius : 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 0px 1px 19px rgba(®,0,0,0.3);
+  z-index: 999;
+  text-decoration: none;
+
+}
+/*whatsapp whatsapp  whatsapp*/
